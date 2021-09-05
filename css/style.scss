@@ -1,0 +1,141 @@
+body{
+    background-color: rgba(236, 234, 234, 1);
+    font-family: 'Roboto', sans-serif;
+}
+.bg-light{
+    background-color: rgba(236, 234, 234, 1) !important;
+
+}
+ul.navbar-nav {
+    margin-right: 10%;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+
+    color: rgba(243, 46, 46, 1) !important;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(128, 128, 128, 1) ;
+
+}
+.container {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    position: relative;
+
+    .blog-home {
+    
+        .blog-card {
+            cursor: pointer;
+            min-height: 400px;
+        }
+    
+        .blog-img {
+            min-width: 600px;
+            
+            img {
+                width: 590px;
+                max-height: 370px;
+            }
+        }
+    
+        .blog-details {
+    
+            position: relative;
+
+            :hover {
+                cursor: pointer;
+            }
+            
+            .blog-date {
+                position: absolute;
+                top: 0;
+                color: rgb(111, 112, 117);
+            }
+            .blog-title {
+                margin-top: 40px;
+                font-size: 60px;
+            }
+
+        }
+    
+    }
+    
+    .blog-row {
+    
+        .blog-card {
+    
+            cursor: pointer;
+    
+            .blog-img {
+        
+                img {
+                    max-width: 100%;
+                    max-height: 240px;
+                    width: 100%;
+                }
+            :hover {
+                cursor: pointer;
+            }
+
+            }
+
+        .blog-title {
+
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+    
+        }
+    
+    }
+
+}
+.blog-detail {
+
+    .blog-img{
+
+        text-align: left;
+
+        img {  
+            width: 80%;
+            height: 560px;
+        }
+
+    }
+
+    .blog-date {
+
+        color: rgb(111, 112, 117);
+    }
+
+}
+
+a {
+    cursor: pointer;
+}
+
+.error {
+    color: rgba(238, 58, 58, 1);
+}
+.success {
+    color: rgba(9, 167, 9, 1);
+}
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}

@@ -1,0 +1,61 @@
+{
+    "blogs": [
+    
+        {
+            "id": 1,
+            "title": "Sharp Creativity. Everything you got.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut", 
+            "image": "./images/afbeelding_1.jpg",
+            "date": "4 September 2021",
+            "auteur": "Leandro r. Barbosa"
+        },
+        {               
+            "id": 2,
+            "title": "Woman with Paints. Insane.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut", 
+            "image": "./images/afbeelding_2.jpg",
+            "date": "10 Augustus 2021",
+            "auteur": "Victoria Borodinova"
+        },
+        {
+            "id": 3,
+            "title": "Blue abstracit Painting.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut", 
+            "image": "./images/afbeelding_3.jpg",
+            "date": "14 Augustus 2021",
+            "auteur": "Leandro r. Barbosa"
+        },
+        {
+            "id": 4,
+            "title": "The happy & love woman.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut", 
+            "image": "./images/afbeelding_4.jpg",
+            "date": "2 September 2021",
+            "auteur": "Victoria Borodinova"
+        },
+        {
+            "id": 5,
+            "title": "Tranquil. Neon paint on face.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut", 
+            "image": "./images/afbeelding_5.jpg",
+            "date": "1 September 2021",
+            "auteur": "Leandro r. Barbosa"
+        },
+        {
+            "id": 6,
+            "title": "Cup. Held by one man.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut", 
+            "image": "./images/afbeelding_6.jpg",
+            "date": "10 Juni 2021",
+            "auteur": "Victoria Borodinova"
+        },
+        {
+            "id": 7,
+            "title": "White hoodie. Wearing knit cap.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut", 
+            "image": "./images/afbeelding_7.jpg",
+            "date": "11 Juni 2021",
+            "auteur": "Victoria Borodinova"
+        }
+    ]
+}

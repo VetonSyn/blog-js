@@ -1,0 +1,124 @@
+body {
+  background-color: #eceaea;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-light {
+  background-color: #eceaea !important;
+}
+
+ul.navbar-nav {
+  margin-right: 10%;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #f32e2e !important;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: gray;
+}
+
+.container {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.container .blog-home .blog-card {
+  cursor: pointer;
+  min-height: 400px;
+}
+
+.container .blog-home .blog-img {
+  min-width: 600px;
+}
+
+.container .blog-home .blog-img img {
+  width: 590px;
+  max-height: 370px;
+}
+
+.container .blog-home .blog-details {
+  position: relative;
+}
+
+.container .blog-home .blog-details :hover {
+  cursor: pointer;
+}
+
+.container .blog-home .blog-details .blog-date {
+  position: absolute;
+  top: 0;
+  color: #6f7075;
+}
+
+.container .blog-home .blog-details .blog-title {
+  margin-top: 40px;
+  font-size: 60px;
+}
+
+.container .blog-row .blog-card {
+  cursor: pointer;
+}
+
+.container .blog-row .blog-card .blog-img img {
+  max-width: 100%;
+  max-height: 240px;
+  width: 100%;
+}
+
+.container .blog-row .blog-card .blog-img :hover {
+  cursor: pointer;
+}
+
+.container .blog-row .blog-card .blog-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.blog-detail .blog-img {
+  text-align: left;
+}
+
+.blog-detail .blog-img img {
+  width: 80%;
+  height: 560px;
+}
+
+.blog-detail .blog-date {
+  color: #6f7075;
+}
+
+a {
+  cursor: pointer;
+}
+
+.error {
+  color: #ee3a3a;
+}
+
+.success {
+  color: #09a709;
+}
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+  padding: 0;
+}
+
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+  top: 0;
+  bottom: 0;
+}
+
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+  padding: 0;
+}
+/*# sourceMappingURL=style.css.map */
